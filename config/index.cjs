@@ -36,8 +36,12 @@ const USER_CONFIG = {
           type: '生日', name: '66', year: '2004', date: '06-06',
         },
       ],
-   
-    },
+    // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2023-06-20' },
+       ],
+     },
   ],
 
 
